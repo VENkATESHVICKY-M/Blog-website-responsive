@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+    <link rel="stylesheet" href="blog-page.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            position: relative;
+            width: 100%;
+            height:100%;
+            overflow: hidden;
+          
+        }
+    </style>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md bg-info navbar-dark  " >
+        <a class="navbar-brand" style="color: rgb(253, 182, 1);">BLOG</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  >
+            <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="collapsibleNavbar" >
+            <ul class="navbar-nav " >
+                <li class="nav-item" >
+                  <a class="nav-link" href="#" style="color: rgb(253, 182, 1);">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: rgb(253, 182, 1);">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: rgb(253, 182, 1);">Contact</a>
+                </li>    
+            </ul>
+        </div> 
+    </nav> 
+    <!--COROuSEL-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner" >
+          <div class="carousel-item active"  >
+            <img src="blog-images/slider-1.jpg" alt="Los Angeles" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="blog-images/slider-2.jpg" alt="Chicago" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="blog-images/slider-3.jpg" alt="New York" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!--1ST CONTENT-->
+    <div class="container text-center pt-3"  >
+        <img class="rounded" src="blog-images/blog-first.png" alt="blog-first-image" style="width: 400px;height: 400px;">
+        <div class="container col-lg-8 col-sm-12"> 
+            <p style="font-style: oblique;font-size: 1.5em;font-weight: 100; "> 
+                The future of designing starts here An open platform for presentations and content collaboration.
+            </p>
+            <p style="font-style: oblique; font-size: 1.5em; ">
+             Sign up to get early access.
+            </p>
+        </div>
+    </div>
+    <!--2ND CONTENT FOR ICONS-->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-sm-12  col-lg-6">
+                <div class="row" style="padding: 10px;">
+                    <div class="col-4 ">
+                        <img src="blog-images/icon-1.png" alt="blog-icon1" width="150px" height="150px">
+                    </div> 
+                    <div class="col-8 ">
+                        <p style="font-style: oblique;font-size: 1.5em;font-weight: 500;margin-top: 0.5cm; "> 
+                            Powerful templates
+                        </p>
+                        <p style="font-style:oblique; font-size: 1em; ">
+                            Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-12  col-lg-6">
+                <div class="row " style="padding: 20px;">
+                    <div class="col-4">
+                        <img src="blog-images/icon-1.png" alt="blog-icon1" width="150px" height="150px">
+                    </div>
+                    <div class="col-8">
+                        <p style="font-style: oblique;font-size: 1.5em;font-weight: 500;margin-top: 0.5cm; "> 
+                            Powerful templates
+                        </p>
+                        <p style="font-style:oblique; font-size: 1em; ">
+                            Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-sm-12  col-lg-6">
+                <div class="row " style="padding: 20px;">
+                    <div class="col-4">
+                        <img src="blog-images/icon-1.png" alt="blog-icon1" width="150px" height="150px">
+                    </div>
+                    <div class="col-8">
+                        <p style="font-style: oblique;font-size: 1.5em;font-weight: 500;margin-top: 0.5cm; "> 
+                            Powerful templates
+                        </p>
+                        <p style="font-style:oblique; font-size: 1em; ">
+                            Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-12 col-lg-6">
+                <div class="row" style="padding: 20px;">
+                    <div class="col-4">
+                        <img src="blog-images/icon-1.png" alt="blog-icon1" width="150px" height="150px">
+                    </div><br>
+                    <div class="col-8">
+                        <p style="font-style: oblique;font-size: 1.5em;font-weight: 500;margin-top: 0.5cm; "> 
+                            Powerful templates
+                        </p>
+                        <p style="font-style:oblique; font-size: 1em; ">
+                            Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-12 col-lg-6">
+                <div class="row" style="padding: 20px;">
+                    <div class="col-4">
+                        <img src="blog-images/icon-1.png" alt="blog-icon1" width="150px" height="150px">
+                    </div>
+                    <div class="col-8">
+                        <p style="font-style: oblique;font-size: 1.5em;font-weight: 500;margin-top: 0.5cm; "> 
+                            Powerful templates
+                        </p>
+                        <p style="font-style:oblique; font-size: 1em;">
+                            Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!--3RD CONTENT FOR CARDS-->
+    <div class="container-fluid   bg-secondary">
+        <div class="row ">
+            <div class="col-sm-12 col-lg-4 ">
+                <div class="row  ">
+                    <div class="col-12 bg-info">
+                        <div class="pricing my-1 pt-3 text-center"  >
+                            <div class="pricing-icon text-center">
+                                <img src="blog-images/card-img.svg" alt="pricing-img" >
+                            </div>
+                            <div class="pricing-header text-center">
+                                <p style="font-style: oblique;font-size: 1.5em;font-weight: 500; ">Pro</p>
+                                <h1><p style="font-style: oblique; font-weight: 300; "> $399 /month</p></h1>
+                            </div>
+                            <div class="pricing-list text-center">
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Carefully crafted components
+                                </p>
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Amazing page examples
+                                </p>
+                            </div>
+                            <div class="pricing-btn rounded-buttons text-center"> 
+                                <button type="button" class="btn btn-outline-secondary" style="width: 2cm;"> Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="row ">
+                    <div class="col-12 ">
+                        <div class="pricing my-1 pt-3"  >
+                            <div class="pricing-icon text-center">
+                                <img src="blog-images/card-img.svg" alt="pricing-img" >
+                            </div>
+                            <div class="pricing-header text-center">
+                                <p style="font-style: oblique;font-size: 1.5em;font-weight: 500; ">Pro</p>
+                                <h1><p style="font-style: oblique; font-weight: 300; "> $399 /month</p></h1>
+                            </div>
+                            <div class="pricing-list text-center">
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Carefully crafted components
+                                </p>
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Amazing page examples
+                                </p>
+                            </div>
+                            <div class="pricing-btn rounded-buttons text-center"> 
+                                <button type="button" class="btn btn-outline-info" style="width: 2cm;"> Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="row ">
+                    <div class="col-12 bg-info">
+                        <div class="pricing my-1 pt-3"  >
+                            <div class="pricing-icon text-center">
+                                <img src="blog-images/card-img.svg" alt="pricing-img" >
+                            </div>
+                            <div class="pricing-header text-center">
+                                <p style="font-style: oblique;font-size: 1.5em;font-weight: 500; ">Pro</p>
+                                <h1><p style="font-style: oblique; font-weight: 300; "> $399 /month</p></h1>
+                            </div>
+                            <div class="pricing-list text-center">
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Carefully crafted components
+                                </p>
+                                <p style="font-style:oblique; font-size: 1em;">
+                                    Amazing page examples
+                                </p>
+                            </div>
+                            <div class="pricing-btn rounded-buttons text-center"> 
+                                <button type="button" class="btn btn-outline-secondary" style="width: 2cm;"> Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
+    </div>
+    <!--Slick slider-->
+    <div class="container-fluid bg-secondary">
+        <div class="items">
+            <div><img src="blog-images/client_logo_01.png"></div>
+            <div><img src="blog-images/client_logo_02.png"></div>
+            <div><img src="blog-images/client_logo_03.png"></div>
+            <div><img src="blog-images/client_logo_05.png"></div>
+            <div><img src="blog-images/client_logo_04.png"></div>
+            <div><img src="blog-images/client_logo_02.png"></div>
+            
+        </div>
+    </div>   
+    <!--FOOTER-->
+    <div>
+        
+    </div>
+</body>
+<script>
+$(document).ready(function(){
+
+$('.items').slick({
+infinite: true,
+slidesToShow: 3,
+slidesToScroll: 3,
+accessibility:true,
+autoplay:true,
+autoplaySpeed:1500,
+});
+});
+</script>
+</html>

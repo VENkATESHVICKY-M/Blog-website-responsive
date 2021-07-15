@@ -1,0 +1,19 @@
+.items {
+    width: 90%;
+    margin: 0px auto;
+    height:50%;
+     
+}
+
+.slick-slide {
+    margin: 10px;
+}
+img{
+    height: 100px;
+
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 1px solid skyblue;
+}
